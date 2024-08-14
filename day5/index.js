@@ -1,4 +1,4 @@
-ddocument.getElementById('fetch-users-btn').addEventListener('click', fetchUsers);
+document.getElementById('fetch-users-btn').addEventListener('click', fetchUsers);
 
 // Function to fetch users from the Reqres API
 function fetchUsers() {
@@ -30,4 +30,3 @@ function displayUsers(users) {
         usersContainer.appendChild(userDiv);
     });
 }
-
